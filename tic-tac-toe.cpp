@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -129,33 +129,5 @@ int checkwin(){
 
 
 
-
-}
-*/
-#include<iostream>
-#include<cmath>
-using namespace std; 
-int main(){
-
-cout<<"please enter your x1 cordinate"<<endl;
-int x1;
-cin>>x1;
-cout<<"please enter your x2 cordinate"<<endl;
-int x2;
-cin>>x2;
-cout<<"please enter your y1 cordinate"<<endl;
-int y1;
-cin>>y1;
-cout<<"please enter your y2 cordinate"<<endl;
-int y2;
-cin>>y2;
-
-int ans;
-ans=(x2-x1)^2+(y2-y1)^2;
-int ans2;
-ans2 = ans;
-ans= sqrt(ans2);
-cout<<ans<<endl;
-return 0;
 
 }
